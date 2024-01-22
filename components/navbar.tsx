@@ -19,7 +19,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link href="/about">
-                <button className="text-white">About</button>
+                <button className="text-white">About this nigga</button>
               </Link>
             </li>
             <li>
