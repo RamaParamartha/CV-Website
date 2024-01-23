@@ -4,7 +4,10 @@ import './globals.css'
 
 const HomePage = () => {
   return (
-    <div></div>
+    <div className="m-24">
+    <p className=" text-4xl">Hello this is a typewriter</p>
+    </div>
+    
   );
 };
 

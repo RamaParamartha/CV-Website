@@ -1,5 +1,6 @@
 // components/Navbar.js
 
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -8,18 +9,18 @@ const Navbar = () => {
     <nav className="bg-gray-900 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div>
-            <img src="/icon.svg" alt="icon" />
+            <img src="/icon.svg" alt="icon" width={30}/>
         </div>
         <div>
           <ul className="flex space-x-4">
             <li>
               <Link href="/">
-                <button className="text-white">Home</button>
+                <button className="text-white padding-up">Home</button>
               </Link>
             </li>
             <li>
               <Link href="/about">
-                <button className="text-white">About</button>
+                <button className="text-white padding-up">About</button>
               </Link>
             </li>
             <li>
