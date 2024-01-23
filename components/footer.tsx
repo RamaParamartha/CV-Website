@@ -14,14 +14,12 @@ const Footer = () => {
             <p className="flex text-gray-600/100"><SiGooglemaps className="mt-1 mr-1"/>80111 Denpasar, Bali</p>
             <p className="flex text-gray-600/100"><BiLogoGmail className="mt-1 mr-1"/>paramartha1307@gmail.com</p>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center mr-40">
             <p className="text-xs flex text-gray-600/100">Copyright ‎<AiOutlineCopyrightCircle className="cant_find_the_margin"/>2024</p></div>
         <div> 
           <ul className="flex space-x-4">
             <li>
-              <Link href="/">
                 <p className="flex text-gray-600/100">Socials :</p>
-              </Link>
             </li>
             </ul>
             <ul className="flex space-x-4">
