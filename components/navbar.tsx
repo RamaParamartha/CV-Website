@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="bg-gray-900 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div>
-            <img src="/icon.svg" alt="icon" width={30}/>
+            <p className='text-xl animate-pulse'>paramartha.cv</p>
         </div>
         <div>
           <ul className="flex space-x-4">

@@ -11,8 +11,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 10, 10, 10;
+    --background-end-rgb: 10, 10, 10;
   }
 }
 
@@ -30,4 +30,7 @@ body {
   padding-top: 2px;
 }
 
+.cant_find_the_margin {
+  margin-top: 1.7px;
+}
 
