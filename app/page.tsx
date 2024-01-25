@@ -8,16 +8,16 @@ const HomePage = () => {
     <div className="top-60">
       <TypeAnimation className='text-blue-800'
         sequence={[
-          'We got unggas',
+          'BLAaauegggrh',
           1000,
-          'We got strong unggas',
+          'satria baja hitam',
           1000,
-          'We got half Asian unggas',
+          'bebek hitam',
           1000,
-          'We got premium unggas',
+          'its your lover koe ngapain ngomong gitu ke orang ram rawr',
           1000,
-          'All for 50% off',
-          10000,
+          'aaaaa mau ram lesgo ram',
+          1000,
         ]}
         speed={50}
         style={{ fontSize: '4em' }}
