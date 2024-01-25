@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { AiFillInstagram, AiOutlineCopyrightCircle } from "react-icons/ai";
 import { FaYoutube } from "react-icons/fa";
-import { SiGooglemaps } from "react-icons/si";
+import { SiGooglemaps } from "react-icons/si"
 import { BiLogoGmail } from "react-icons/bi";
 
 const Footer = () => {
@@ -15,7 +15,8 @@ const Footer = () => {
             <p className="flex text-gray-600/100"><BiLogoGmail className="mt-1 mr-1"/>paramartha1307@gmail.com</p>
         </div>
         <div className="flex justify-center items-center mr-40">
-            <p className="text-xs flex text-gray-600/100">Copyright ‎<AiOutlineCopyrightCircle className="cant_find_the_margin"/>2024</p></div>
+            <p className="text-xs flex text-gray-600/100">Copyright ‎<AiOutlineCopyrightCircle className="cant_find_the_margin"/> 2024 Made with NextJS and TailwindCSS. Deployed with Vercel</p>
+        </div>
         <div> 
           <ul className="flex space-x-4">
             <li>
