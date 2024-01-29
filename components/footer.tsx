@@ -14,7 +14,7 @@ const Footer = () => {
             <p className="flex text-gray-600/100"><SiGooglemaps className="mt-1 mr-1"/>80244 Denpasar, Bali</p>
             <p className="flex text-gray-600/100"><BiLogoGmail className="mt-1 mr-1"/>paramartha1307@gmail.com</p>
         </div>
-        <div className="flex justify-center items-center mr-40 lg:visible md:hidden">
+        <div className="flex justify-center items-center mr-40">
             <p className="text-xs flex text-gray-600/100">Copyright ‎<AiOutlineCopyrightCircle className="cant_find_the_margin"/> 2024 Made with NextJS and TailwindCSS. Deployed with Vercel</p>
         </div>
         <div> 
