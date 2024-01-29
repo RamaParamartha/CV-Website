@@ -7,14 +7,14 @@ import { BiLogoGmail } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 relative">
+    <footer className="bg-gray-800 relative">
       <div className="container mx-auto flex justify-between items-center">
         <div>
             <p className="flex text-gray-600/100">Contact Me :</p>
             <p className="flex text-gray-600/100"><SiGooglemaps className="mt-1 mr-1"/>80244 Denpasar, Bali</p>
             <p className="flex text-gray-600/100"><BiLogoGmail className="mt-1 mr-1"/>paramartha1307@gmail.com</p>
         </div>
-        <div className="flex justify-center items-center mr-40">
+        <div className=" justify-center items-center mr-40 invisible md:visible">
             <p className="text-xs flex text-gray-600/100">Copyright ‎<AiOutlineCopyrightCircle className="cant_find_the_margin"/> 2024 Made with NextJS and TailwindCSS. Deployed with Vercel</p>
         </div>
         <div> 
