@@ -26,6 +26,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/*too lazy to add tailwind confif, so made a new class insteada*/
 .padding-up {
   padding-top: 2px;
 }
@@ -35,5 +36,6 @@ body {
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /*gives smooth scroll behavior to navbar*/
+  scroll-padding: 4rem; /*add padding to the scroll*/
 }
