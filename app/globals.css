@@ -24,9 +24,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
 }
 
-/*too lazy to add tailwind confif, so made a new class insteada*/
+/*too lazy to add tailwind config, so made a new class insteada*/
 .padding-up {
   padding-top: 2px;
 }
@@ -59,15 +60,15 @@ html {
   100% { transform: translateY(0px); }
 }
 .animate-upNdown {
-  animation: upNdown 1s infinite;
-}
-
-.animate-upNdown2 {
   animation: upNdown 2s infinite;
 }
 
+.animate-upNdown2 {
+  animation: upNdown 2.4s infinite;
+}
+
 .animate-upNdown3 {
-  animation: upNdown 3s infinite;
+  animation: upNdown 2.2s infinite;
 }
 
 /* animate hover on load  */
@@ -83,16 +84,18 @@ html {
   0% { transform: translateY(-70px); 
        opacity: 0; 
   }
-  40% { transform: translateY(5px); opacity: 1;}
+  40% { transform: translateY(5px); opacity: 1; }
   100% { transform: translateY(0px); opacity: 1;}
+
 }
 
 .animate-hoverload {
-  animation: siteLoadHoverAnimation 2s forwards;
+  animation: siteLoadHoverAnimation 1.7s forwards;
+  
 }
 
 .animate-hoverload2 {
-  animation: siteLoadHoverAnimation2 2s forwards;
+  animation: siteLoadHoverAnimation2 1.7s forwards;
 }
 
 /* curvy website */
@@ -107,4 +110,12 @@ html {
 
 .layer1 {
   background-image: url('/layered-wave-1.svg');
+}
+
+.layer2 {
+  background-image: url('/layered-wave-2.svg');
+}
+
+::-webkit-scrollbar {
+  width: 0%;
 }

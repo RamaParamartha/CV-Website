@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="bg-gray-800 p-4 sticky top-0 z-10 shadow-md shadow-black">
       <div className="container mx-auto flex justify-between items-center sticky">
         <div>
-            <p className='text-xl animate-pulse'>swiftsurge.cv</p>
+            <p className='text-xl animate-pulse'>paramartha.cv</p>
         </div>
         <div>
           <ul className="flex space-x-4">
@@ -18,8 +18,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="#about">
-                <button className="text-white padding-up transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-200 scroll-smooth">About</button>
+              <Link href="#projects">
+                <button className="text-white padding-up transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-200 scroll-smooth">Projects</button>
               </Link>
             </li>
             <li>

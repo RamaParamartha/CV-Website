@@ -10,13 +10,12 @@ const HomePage = () => {
       {/* fisrt section of the website */}
     <div className='h-[100rem] layer1 spacer'>
       {/* About me desc */}
-      <div className='flex h-[60rem] float-left pl-[25rem] animate-hoverload absolute'>
-        <div className="bg-gray-800 rounded overflow-hidden w-[40rem] h-[23rem] m-auto p-4 shadow-2xl shadow-black hover:scale-[1.05] duration-300 hover:shadow-blue-500 hover:bg-white ">
+      <div className='flex top-[22.5rem] float-left left-[25rem] animate-hoverload absolute'>
+        <div className="bg-gray-800 rounded overflow-hidden w-[40rem] h-[23rem] m-auto p-4 shadow-2xl shadow-black hover:scale-[1.05] duration-300">
           {/* type animation  */}
          <TypeAnimation
             className='text-white overflow-hidden'
             sequence={[
-              3000, 
               'Linus Gabriel Sebastian (born August 20, 1986) is a Canadian YouTuber best known for creating and hosting YouTube channels that cover technology. On November 24, 2008, he started publishing videos on his main channel Linus Tech Tips (LTT) which has 15.5 million subscribers and 7.52 billion views as of January 2024. His channels have a combined subscriber base of over 27 million.',
               1000,
               'From 2007 to 2013, he was a regular presenter of technology videos for the now defunct Canadian computer retailer NCIX. He is also the founder and former Chief Executive Officer of Linus Media Group (LMG). On July 1, 2023, Sebastian stepped down as LMGs CEO, and took the role as Chief Vision Officer.',
@@ -27,39 +26,22 @@ const HomePage = () => {
               1000
             ]}
             wrapper="span"
-            speed={80}
+            speed={50}
             deletionSpeed={90}
             style={{ fontSize: '23px', display: 'inline-block', width: '38rem', height: '22rem' }}
-            repeat={Infinity}
           />
         </div>
       </div>
 
       {/* About me on top of desc */}
-      <div className='flex h-[31rem] float-left pl-[22rem] absolute animate-hoverload2'>
-        <div className="bg-gray-800  rounded overflow-hidden w-[20rem] h-[4rem] m-auto p-4 border border-gray-900 shadow-lg shadow-black hover:scale-[1.05] duration-300 hover:shadow-blue-500 hover:bg-white  hover:text-black">
-          <p className="text-4xl text-white hover:text-black p-0 m-0">About Me</p>
+      <div className='flex top-[18rem] float-left left-[22rem] absolute animate-hoverload2'>
+        <div className="bg-gray-800  rounded overflow-hidden w-[20rem] h-[4rem] m-auto p-4 border border-gray-900 shadow-lg shadow-black hover:scale-[1.05] duration-300">
+          <p className="text-4xl text-white p-0 m-0">About Me</p>
         </div>
       </div>
-
-      {/* random floating rocks go */}
-      <div className='flex h-[70rem] float-left pl-[10rem] absolute animate-upNdown'>
-        <div className="bg-gray-800  rounded overflow-hidden w-[4rem] h-[4rem] shadow-lg shadow-black m-auto p-4">
-        </div>
-      </div>
-
-      <div className='flex h-[15rem] float-left pl-[90rem] absolute animate-upNdown2'>
-        <div className="bg-gray-800  rounded overflow-hidden w-[4rem] h-[7rem] shadow-lg shadow-black m-auto p-4">
-        </div>
-      </div>
-
-      <div className='flex h-[70rem] float-left pl-[10rem] absolute animate-upNdown3'>
-        <div className="bg-gray-800  rounded overflow-hidden w-[4rem] h-[4rem] shadow-lg shadow-black m-auto p-4">
-        </div>
-      </div>
-
+      
       {/* Your Image */}
-      <div className='flex h-[60rem] float-left pl-[73rem] absolute animate-hoverload'>
+      <div className='flex top-[17rem] float-left left-[73rem] absolute animate-hoverload'>
         <div className="bg-gray-800 rounded overflow-hidden w-[30rem] h-[35rem] m-auto p-4 shadow-2xl shadow-black hover:scale-[1.05] duration-300 hover:shadow-blue-500 hover:bg-white ">
         <img src="LinusTechTipsFace.jpg" alt="I Made Linus Saputra"/>
         </div>
@@ -67,8 +49,47 @@ const HomePage = () => {
     </div>
 
     {/* second section of the website */}
-    <div className='bg-[#C62368] h-[100rem]' id='about'></div>
-    <div></div>
+    <div className='bg-[#C62368] h-[60rem] z-0' id='projects'>
+
+    <div className='flex top-[97rem] w-[100%] items-center float-left absolute z-0'>
+      <div className=" overflow-hidden m-auto p-4">
+        <p className='text-white text-7xl font-bold'>PROJECTS</p>
+      </div>
+    </div>
+      
+    <div className='flex top-[110rem] left-[10rem] float-left animate-upNdown3 absolute z-0'>
+      <div className="bg-white rounded overflow-hidden w-[26rem] h-[4rem] m-auto p-4 shadow-lg shadow-black hover:scale-[1.05] duration-300">
+        <p className='text-black text-2xl'>Text based RPG game using C++</p>
+      </div>
+    </div>
+
+    <div className='flex top-[110rem] left-[65rem] float-left animate-upNdown2 absolute z-0'>
+      <div className="bg-white rounded overflow-hidden w-[20rem] h-[4rem] m-auto p-4 shadow-lg shadow-black hover:scale-[1.05] duration-300">
+        <p className='text-black text-2xl'>CRUD Website</p>
+      </div>
+    </div>
+
+
+    <div className='flex top-[115rem] left-[13rem] float-left animate-upNdown2 absolute z-0'>
+      <div className="bg-white rounded overflow-hidden w-[40rem] h-[30rem] m-auto p-4 shadow-lg shadow-black hover:scale-[1.05] duration-300">
+      <img src="c++-rpg.png" alt="c++" className='h-[20rem] w-[100%]'/>
+        <p className='text-black text-lg'>This is a program i made, where the user chooses a class before proceeding on the already set upon path that is different from every other class </p>
+      </div>
+    </div>
+
+    <div className='flex top-[115rem] left-[71rem] float-left animate-upNdown absolute z-0'>        
+      <div className="bg-white rounded overflow-hidden w-[40rem] h-[30rem] m-auto p-4 shadow-lg shadow-black hover:scale-[1.05] duration-300">
+      <img src="crud_website.png" alt="crud-website" className='h-[20rem] w-[100%]'/>
+        <p className='text-black text-lg'>This is a website i made for a final exam, the website used HTML, CSS, and PHP for the backend. The website is about a motorcycle dealer, selling motorcycles online.</p>
+      </div>
+    </div>
+    </div>
+
+    {/* section 3 new layered waves */}
+    <div className='spacer layer2'></div>
+            <div className='h-[100rem]'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sUKptmUVIBM?si=aWsseDUc13TWrQda" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            </div>
     </div>
   );
 };
