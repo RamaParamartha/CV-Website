@@ -7,7 +7,7 @@ import { BiLogoGmail } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 relative">
+    <footer className="bg-gray-800 relative bottom-0">
       <div className="container mx-auto flex justify-between items-center">
         <div>
             <p className="flex text-gray-600/100">Contact Me :</p>
