@@ -16,13 +16,13 @@ const HomePage = () => {
          <TypeAnimation
             className='text-white overflow-hidden'
             sequence={[
-              'My name is I Gede Made Paramartha Nugraha, I am eager to learn and deepen my knowledge about programming. My educational background has instilled in me a strong foundation in software engineering principles, and I am now keen to focus on honing my skills in programming I am excited to embark on a journey of continuous learning and knowledge deepening.'
+              'My name is I Gede Made Paramartha Nugraha, I am eager to learn and deepen my knowledge about programming. My educational background has instilled in me a strong foundation in software engineering principles, and I am now keen to focus on honing my skills in programming I am excited to embark on a journey of continuous learning and knowledge deepening. currently, i have known 7  programming languages, which are C++, HTML, CSS, PHP, React, Tailwind CSS, Bootstrap and eager to learn more.'
             ]}
             wrapper="span"
-            speed={70}
+            speed={90}
             deletionSpeed={90}
             cursor={false}
-            style={{ fontSize: '23px', display: 'inline-block', width: '38rem', height: '22rem' }}
+            style={{ fontSize: '20px', display: 'inline-block', width: '38rem', height: '22rem' }}
           />
         </div>
       </div>
