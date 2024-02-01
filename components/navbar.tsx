@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="bg-gray-800 p-4 sticky top-0 z-10 shadow-md shadow-black">
       <div className="container mx-auto flex justify-between items-center sticky">
         <div>
-            <p className='text-xl animate-pulse'>paramartha.cv</p>
+            <p className='text-xl animate-pulse invisible md:visible'>paramartha.cv</p>
         </div>
         <div>
           <ul className="flex space-x-4">
