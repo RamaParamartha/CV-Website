@@ -7,11 +7,12 @@ import Image from 'next/image';
 const HomePage = () => {
   return (
     <div id="home">
-      {/* fisrt section of the website */}
+      {/* first section of the website */}
     <div className='
     layer1 
     spacer
-
+    flex
+    
     xl:h-[100rem]
     lg:h-[60rem]
 

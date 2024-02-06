@@ -16,6 +16,11 @@
   }
 }
 
+
+html {
+  overflow: hidden;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -100,7 +105,6 @@ html {
 
 /* curvy website */
 .spacer {
-  aspect-ratio: 600/100;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
