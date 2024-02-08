@@ -27,8 +27,8 @@ const HomePage = () => {
       lg:top-[15rem]
       lg:left-[5rem]
 
-      xl:top-[22.5rem]
-      xl:left-[36rem]
+      xl:top-[25rem]
+      xl:left-[30rem]
 
       '>
         <div className="
@@ -58,7 +58,7 @@ const HomePage = () => {
             speed={90}
             deletionSpeed={90}
             cursor={false}
-            style={{ fontSize: 'xl:20px lg:15px', display: 'inline-block', width: 'xl:38rem lg:28', height: 'xl:22rem lg:8' }}
+            style={{ fontSize: 'xl:20px lg:15px', display: 'inline-block', width: 'xl:38rem lg:28rem', height: 'xl:22rem lg:8rem' }}
           />
         </div>
       </div>
@@ -68,8 +68,8 @@ const HomePage = () => {
       flex 
       float-left
 
-      xl:top-[9rem]  
-      xl:left-[22rem]
+      xl:top-[20rem]  
+      xl:left-[28rem]
 
       lg:top-[10rem]  
       lg:left-[2rem]
@@ -106,8 +106,8 @@ const HomePage = () => {
       
       float-left 
 
-      xl:top-[17rem] 
-      xl:left-[73rem] 
+      xl:top-[19rem] 
+      xl:left-[72rem] 
 
       lg:top-[12rem] 
       lg:left-[40rem] 
@@ -141,38 +141,45 @@ const HomePage = () => {
     </div>
 
     {/* second section of the website */}
-    <div className='bg-[#C62368] h-[60rem] z-0 overflow-hidden' id='projects'>
+    <div className='bg-[#C62368] xl:h-[60rem] z-0 overflow-hidden lg:h-[80rem]' >
 
     <div className='
     flex 
-    top-[97rem] 
+    xl:top-[97rem] 
     w-[100%] 
     items-center 
     float-left 
     absolute 
     z-0
-    '>
+    ' id='projects'>
       <div className=" overflow-hidden m-auto p-4">
-        <p className='text-white text-7xl font-bold'>PROJECTS</p>
+        <p className='text-white xl:text-7xl lg:text-5xl font-bold' >PROJECTS</p>
       </div>
     </div>
       
     <div className='
     flex 
-    top-[110rem] 
-    left-[10rem] 
+    xl:top-[110rem] 
+    xl:left-[10rem] 
+
+    lg:top-[70rem]
+    lg:left-[7rem] 
     float-left 
     animate-upNdown3 
     absolute z-0
     '>
-      <div className="bg-white rounded overflow-hidden w-[26rem] h-[4rem] m-auto p-4 shadow-lg shadow-black hover:scale-[1.05] duration-300">
-        <p className='text-black text-2xl'>Text based Quiz game using C++</p>
+      <div className="bg-white rounded overflow-hidden xl:w-[26rem] xl:h-[4rem] lg:w-[20rem] lg:h-[4rem] m-auto p-4 shadow-lg shadow-black hover:scale-[1.05] duration-300">
+        <p className='text-black xl:text-2xl lg:text-lg'>Text based Quiz game using C++</p>
       </div>
     </div>
 
     <div className='
-    flex top-[110rem] 
-    left-[72rem] 
+    flex 
+    xl:top-[110rem] 
+    xl:left-[72rem] 
+
+    lg:top-[110rem] 
+    lg:left-[7rem] 
     float-left 
     animate-upNdown2 
     absolute 
@@ -185,8 +192,12 @@ const HomePage = () => {
 
 
     <div className='
-    flex top-[115rem] 
-    left-[13rem] 
+    flex 
+    xl:top-[115rem] 
+    xl:left-[13rem] 
+
+    lg:top-[75rem] 
+    lg:left-[13rem] 
     float-left 
     animate-upNdown2 
     absolute z-0
@@ -195,8 +206,11 @@ const HomePage = () => {
       bg-white 
       rounded 
       overflow-hidden 
-      w-[37rem] 
-      h-[30rem] 
+      xl:w-[37rem] 
+      xl:h-[30rem] 
+
+      lg:w-[37rem] 
+      lg:h-[27rem] 
       m-auto 
       p-4 shadow-lg 
       shadow-black 
@@ -209,8 +223,12 @@ const HomePage = () => {
     </div>
 
     <div className='
-    flex top-[115rem] 
-    left-[74rem] 
+    flex 
+    xl:top-[115rem] 
+    xl:left-[74rem] 
+
+    lg:top-[115rem] 
+    lg:left-[13rem] 
     float-left 
     animate-upNdown 
     absolute 
@@ -220,8 +238,11 @@ const HomePage = () => {
     bg-white 
     rounded 
     overflow-hidden 
-    w-[40rem] 
-    h-[30rem] 
+    xl:w-[40rem] 
+    xl:h-[30rem] 
+
+    lg:w-[37rem] 
+    lg:h-[27rem] 
     m-auto 
     p-4 
     shadow-lg 
@@ -247,12 +268,15 @@ const HomePage = () => {
     m-auto 
     p-4 
     flex 
-    top-[39rem] 
-    left-[48rem] 
+    xl:top-[39rem] 
+    xl:left-[48rem] 
+
+    lg:top-[43rem] 
+    lg:left-[23rem] 
     items-center 
     absolute 
-    z-0">
-        <p className='text-white text-7xl font-bold'>EDUCATION</p>
+    z-0" id='education'>
+        <p className='text-white xl:text-7xl lg:text-5xl font-bold' >EDUCATION</p>
       </div>
 
         <div className='
@@ -264,13 +288,16 @@ const HomePage = () => {
         pl-[0] 
         relative 
         top-[50rem]'
-        id='education'>
+        >
             <div className='
             bg-gray-800 
             rounded 
             overflow-hidden 
-            w-[25rem] 
-            h-[25rem] 
+            xl:w-[25rem] 
+            xl:h-[25rem] 
+
+            lg:w-[20rem] 
+            lg:h-[27rem] 
             m-auto 
             p-4 
             shadow-2xl 
@@ -290,8 +317,11 @@ const HomePage = () => {
             bg-gray-800 
             rounded 
             overflow-hidden 
-            w-[25rem] 
-            h-[25rem] 
+            xl:w-[25rem] 
+            xl:h-[25rem] 
+
+            lg:w-[20rem] 
+            lg:h-[27rem] 
             m-auto
             p-4 
             shadow-2xl 
@@ -311,8 +341,11 @@ const HomePage = () => {
             bg-gray-800 
             rounded 
             overflow-hidden 
-            w-[25rem] 
-            h-[25rem] 
+            xl:w-[25rem] 
+            xl:h-[25rem] 
+
+            lg:w-[20rem] 
+            lg:h-[27rem] 
             m-auto 
             p-4 
             shadow-2xl 

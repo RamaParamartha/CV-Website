@@ -42,6 +42,7 @@ body {
 }
 
 html {
+  overflow: auto;
   scroll-behavior: smooth; /*gives smooth scroll behavior to navbar*/
   scroll-padding: 4rem; /*add padding to the scroll*/
 }
@@ -118,8 +119,4 @@ html {
 
 .layer2 {
   background-image: url('/layered-wave-2.svg');
-}
-
-::-webkit-scrollbar {
-  width: 0%;
 }
