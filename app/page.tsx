@@ -27,8 +27,8 @@ const HomePage = () => {
       lg:top-[15rem]
       lg:left-[5rem]
 
-      xl:top-[25rem]
-      xl:left-[30rem]
+      xl:top-[20rem]
+      xl:left-[20rem]
 
       '>
         <div className="
@@ -68,8 +68,8 @@ const HomePage = () => {
       flex 
       float-left
 
-      xl:top-[20rem]  
-      xl:left-[28rem]
+      xl:top-[15rem]  
+      xl:left-[15rem]
 
       lg:top-[10rem]  
       lg:left-[2rem]
@@ -106,8 +106,8 @@ const HomePage = () => {
       
       float-left 
 
-      xl:top-[19rem] 
-      xl:left-[72rem] 
+      xl:top-[12rem] 
+      xl:left-[62rem] 
 
       lg:top-[12rem] 
       lg:left-[40rem] 
@@ -160,7 +160,7 @@ const HomePage = () => {
     <div className='
     flex 
     xl:top-[110rem] 
-    xl:left-[10rem] 
+    xl:left-[2rem] 
 
     lg:top-[70rem]
     lg:left-[7rem] 
@@ -176,7 +176,7 @@ const HomePage = () => {
     <div className='
     flex 
     xl:top-[110rem] 
-    xl:left-[72rem] 
+    xl:left-[53rem] 
 
     lg:top-[110rem] 
     lg:left-[7rem] 
@@ -194,7 +194,7 @@ const HomePage = () => {
     <div className='
     flex 
     xl:top-[115rem] 
-    xl:left-[13rem] 
+    xl:left-[7rem] 
 
     lg:top-[75rem] 
     lg:left-[13rem] 
@@ -225,7 +225,7 @@ const HomePage = () => {
     <div className='
     flex 
     xl:top-[115rem] 
-    xl:left-[74rem] 
+    xl:left-[60rem] 
 
     lg:top-[115rem] 
     lg:left-[13rem] 
@@ -269,7 +269,7 @@ const HomePage = () => {
     p-4 
     flex 
     xl:top-[39rem] 
-    xl:left-[48rem] 
+    xl:left-[37.5rem] 
 
     lg:top-[43rem] 
     lg:left-[23rem] 
