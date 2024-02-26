@@ -1,8 +1,9 @@
 "use client";
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './globals.css';
 import { TypeAnimation } from 'react-type-animation';
-import Image from 'next/image';
+import Projects from '@/components/projects';
+import Projects2 from '@/components/projects2'
 
 const HomePage = () => {
   return (
@@ -28,7 +29,7 @@ const HomePage = () => {
       lg:left-[5rem]
 
       xl:top-[20rem]
-      xl:left-[20rem]
+      xl:left-[27rem]
 
       '>
         <div className="
@@ -69,7 +70,7 @@ const HomePage = () => {
       float-left
 
       xl:top-[15rem]  
-      xl:left-[15rem]
+      xl:left-[20rem]
 
       lg:top-[10rem]  
       lg:left-[2rem]
@@ -107,7 +108,7 @@ const HomePage = () => {
       float-left 
 
       xl:top-[12rem] 
-      xl:left-[62rem] 
+      xl:left-[70rem] 
 
       lg:top-[12rem] 
       lg:left-[40rem] 
@@ -127,7 +128,7 @@ const HomePage = () => {
         lg:h-[22.5rem] 
 
         m-auto 
-        p-4 
+        p-4 O
         shadow-2xl 
         shadow-black 
         hover:scale-[1.05] 
@@ -160,7 +161,7 @@ const HomePage = () => {
     <div className='
     flex 
     xl:top-[110rem] 
-    xl:left-[2rem] 
+    xl:left-[7rem] 
 
     lg:top-[70rem]
     lg:left-[7rem] 
@@ -176,7 +177,7 @@ const HomePage = () => {
     <div className='
     flex 
     xl:top-[110rem] 
-    xl:left-[53rem] 
+    xl:left-[67rem] 
 
     lg:top-[110rem] 
     lg:left-[7rem] 
@@ -194,7 +195,7 @@ const HomePage = () => {
     <div className='
     flex 
     xl:top-[115rem] 
-    xl:left-[7rem] 
+    xl:left-[13rem] 
 
     lg:top-[75rem] 
     lg:left-[13rem] 
@@ -203,6 +204,7 @@ const HomePage = () => {
     absolute z-0
     '>
       <div className="
+      text-black
       bg-white 
       rounded 
       overflow-hidden 
@@ -218,14 +220,14 @@ const HomePage = () => {
       duration-300
       ">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/JTCwffacFGU?si=QWaXQD10TQrmHhr7" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        <p className='text-black text-lg'>This is a program my group made, where the user gets to play a quiz game with 3 difficulties. each difficulty has 2 stages except for hard, which has only 1 stage.</p>
+      <Projects2/>
       </div>
     </div>
 
     <div className='
     flex 
     xl:top-[115rem] 
-    xl:left-[60rem] 
+    xl:left-[76rem] 
 
     lg:top-[115rem] 
     lg:left-[13rem] 
@@ -235,6 +237,7 @@ const HomePage = () => {
     z-0
     '>        
     <div className="
+    text-black
     bg-white 
     rounded 
     overflow-hidden 
@@ -251,7 +254,7 @@ const HomePage = () => {
     duration-300 
     ">
       <img src="crud_website.png" alt="crud-website" className='h-[20rem] w-[100%]'/>
-        <p className='text-black text-lg'>This is a website i made for a final exam, the website used HTML, CSS, and PHP for the backend. The website is about a motorcycle dealer, selling motorcycles online.</p>
+      <Projects/>
       </div>
     </div>
     </div>
@@ -269,10 +272,10 @@ const HomePage = () => {
     p-4 
     flex 
     xl:top-[39rem] 
-    xl:left-[37.5rem] 
+    xl:left-[47.5rem] 
 
     lg:top-[43rem] 
-    lg:left-[23rem] 
+    lg:left-[25rem] 
     items-center 
     absolute 
     z-0" id='education'>
@@ -290,7 +293,7 @@ const HomePage = () => {
         top-[50rem]'
         >
             <div className='
-            bg-gray-800 
+            bg-gray-800
             rounded 
             overflow-hidden 
             xl:w-[25rem] 
@@ -308,7 +311,7 @@ const HomePage = () => {
               h-[20rem] 
               hover:scale-[105%] 
               duration-300 
-              hover:opacity-50 
+              hover:opacity-50  
               '/>
               <p className='text-2xl text-center pt-4'>Denpasar Children Centre</p>
             </div>
@@ -359,6 +362,7 @@ const HomePage = () => {
               hover:opacity-50
               '/>
               <p className='text-2xl text-center pt-4'>SMK TI Bali Global Denpasar</p>
+
             </div>
         </div>
       </div>

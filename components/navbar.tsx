@@ -5,7 +5,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 p-4 sticky top-0 z-10 shadow-md shadow-black">
+    <nav className="bg-gray-800 p-4 sticky top-0 z-20 shadow-md shadow-black">
       <div className="container mx-auto flex justify-between items-center sticky">
         <div>
             <p className='text-xl animate-pulse invisible md:visible'>paramartha.cv</p>
