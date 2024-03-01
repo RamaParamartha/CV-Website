@@ -15,7 +15,7 @@ function Projects() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:1337/api/project-c'); //api endpoint
+        const response = await axios.get('http://localhost:1337/api/project-crud'); //api endpoint
         setProject(response.data); //add data response from strapi
       } catch (error) {
         console.error('Error fetching data:', error);
