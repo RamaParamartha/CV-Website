@@ -2,6 +2,9 @@
 import React, { useEffect, useState } from "react";
 import "./globals.css";
 import { TypeAnimation } from "react-type-animation";
+import Projects from "@/components/projects";
+import projects2 from "@/components/projects2";
+import Projects2 from "@/components/projects2";
 
 const HomePage = () => {
   return (
@@ -111,7 +114,7 @@ const HomePage = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             ></iframe>
-            the thing in here is the thing in here
+            <Projects/>
           </div>
         </div>
 
@@ -126,7 +129,7 @@ const HomePage = () => {
               alt="crud-website"
               className="h-[20rem] w-[100%]"
             />
-            Ohh this is the thing eh?
+            <Projects2/>
           </div>
         </div>
       </div>
@@ -135,98 +138,6 @@ const HomePage = () => {
       <div
         className="h-[50rem] spacer layer2 relative"
       >
-        <div
-          className="overflow-hidden m-auto p-4 flex xl:top-[39rem] xl:left-[47.5rem] lg:top-[43rem] lg:left-[25rem] items-center absolute z-0"
-          id="education"
-        >
-          <p className="text-white xl:text-7xl lg:text-5xl font-bold">
-            EDUCATION
-          </p>
-        </div>
-
-        <div
-          className=""
-        >
-          <div
-            className=""
-          >
-            <img
-              src="/DCC.png"
-              alt="dcc"
-              className="
-              h-[20rem] 
-              hover:scale-[105%] 
-              duration-300 
-              hover:opacity-50  
-              "
-            />
-            <p className="text-2xl text-center pt-4">
-              Denpasar Children Centre
-            </p>
-          </div>
-
-          <div
-            className="
-            bg-gray-800 
-            rounded 
-            overflow-hidden 
-            xl:w-[25rem] 
-            xl:h-[25rem] 
-
-            lg:w-[20rem] 
-            lg:h-[27rem] 
-            m-auto
-            p-4 
-            shadow-2xl 
-            shadow-black 
-            animate-upNdown3
-            "
-          >
-            <img
-              src="/SMP11.png"
-              alt="smp11"
-              className="
-              h-[20rem] 
-              hover:scale-[105%] 
-              duration-300 
-              hover:opacity-50
-              "
-            />
-            <p className="text-2xl text-center pt-4">SMP Negeri 11 Denpasar</p>
-          </div>
-
-          <div
-            className="
-            bg-gray-800 
-            rounded 
-            overflow-hidden 
-            xl:w-[25rem] 
-            xl:h-[25rem] 
-
-            lg:w-[20rem] 
-            lg:h-[27rem] 
-            m-auto 
-            p-4 
-            shadow-2xl 
-            shadow-black  
-            animate-upNdown
-            "
-          >
-            <img
-              src="/SMKTI.png"
-              alt="smkti"
-              className="
-              h-[20rem] 
-              hover:scale-[105%] 
-              duration-300 
-              hover:opacity-50
-              "
-            />
-            <p className="text-2xl text-center pt-4">
-              SMK TI Bali Global Denpasar
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
