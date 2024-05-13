@@ -2,8 +2,6 @@
 import React, { useEffect, useState } from 'react';
 import './globals.css';
 import { TypeAnimation } from 'react-type-animation';
-import Projects from '@/components/projects';
-import Projects2 from '@/components/projects2'
 
 const HomePage = () => {
   return (
@@ -170,7 +168,7 @@ const HomePage = () => {
     absolute z-0
     '>
       <div className="bg-white rounded overflow-hidden xl:w-[26rem] xl:h-[4rem] lg:w-[20rem] lg:h-[4rem] m-auto p-4 shadow-lg shadow-black hover:scale-[1.05] duration-300">
-        <p className='text-black xl:text-2xl lg:text-lg'>Text based Quiz game using C++</p>
+        <p className='text-black xl:text-2xl lg:text-lg'>Text based Quiz game using C++ why does this not found ?</p>
       </div>
     </div>
 
@@ -220,7 +218,7 @@ const HomePage = () => {
       duration-300
       ">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/JTCwffacFGU?si=QWaXQD10TQrmHhr7" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-      <Projects2/>
+            the thing in here is the thing in here
       </div>
     </div>
 
@@ -254,7 +252,7 @@ const HomePage = () => {
     duration-300 
     ">
       <img src="crud_website.png" alt="crud-website" className='h-[20rem] w-[100%]'/>
-      <Projects/>
+        Ohh this is the thing eh?
       </div>
     </div>
     </div>
