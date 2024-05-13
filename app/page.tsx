@@ -28,7 +28,7 @@ const HomePage = () => {
               deletionSpeed={90}
               cursor={false}
               style={{
-                fontSize: "xl:20px lg:15px",
+                fontSize: "xl:20px lg:15px", 
                 display: "inline-block",
                 width: "xl:38rem lg:28rem",
                 height: "xl:22rem lg:8rem",
