@@ -66,6 +66,10 @@ body::-webkit-scrollbar {
   animation: upNdown 2.2s infinite;
 }
 
+.animate-upNdown3-1 {
+  animation: upNdown 2.2s infinite;
+  scale: 200%;
+}
 /* animate hover on load  */
 @keyframes siteLoadHoverAnimation {
   0% { transform: translateY(70px); 
