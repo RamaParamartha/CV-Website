@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-function Projects() {
+function Projects_api() {
   const [project, setProject] = useState({
     data: {
       attributes: {
@@ -45,4 +45,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Projects_api;

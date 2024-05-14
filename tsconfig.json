@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/AnimatedTextWord.tsx", "components/projects.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/AnimatedTextWord.tsx", "components/projects_api.js"],
   "exclude": ["node_modules"]
 }

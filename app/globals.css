@@ -16,11 +16,6 @@
   }
 }
 
-
-html {
-  overflow: hidden;
-}
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -32,21 +27,15 @@ body {
 
 }
 
-/*too lazy to add tailwind config, so made a new class insteada*/
-.padding-up {
-  padding-top: 2px;
-}
-
-.cant_find_the_margin {
-  margin-top: 1.7px;
-}
-
 html {
-  overflow: auto;
+  width: 100%;
   scroll-behavior: smooth; /*gives smooth scroll behavior to navbar*/
   scroll-padding: 4rem; /*add padding to the scroll*/
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
 /* up n down for magical rocks */
 @keyframes upNdown {
   0% { transform: translateY(0px); }
@@ -110,7 +99,6 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 90rem;
 }
 
 .layer1 {
