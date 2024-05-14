@@ -112,3 +112,11 @@ body::-webkit-scrollbar {
 .layer2 {
   background-image: url('/layered-wave-2.svg');
 }
+
+.layer3 {
+  background-image: url('/layered-steps-1.svg');
+}
+
+.layer4 {
+  background-image: url('/layered-steps-2.svg');
+}
