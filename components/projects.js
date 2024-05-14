@@ -17,10 +17,10 @@ function Projects() {
       try {
         const response = await axios.get('http://localhost:1337/api/project-crud'); //api endpoint
         setProject(response.data); //add data response from strapi
-      } catch (error) {
+      } catch (error) { //error handling
         console.error('Error fetching data:', error);
         setError('Failed to load project. Please try again later.');
-      } finally {
+      } finally { //make initial call complete
         setIsLoading(false);
       }
     };
@@ -36,7 +36,7 @@ function Projects() {
         <p className="error">{error}</p>
       ) : project?.data?.attributes ? (
         <div key={project.data.id}>
-          <p>{project.data.attributes.description}</p>
+          <p>{project.data.attributes.desc}</p>
         </div>
       ) : (
         <p>No project found.</p>

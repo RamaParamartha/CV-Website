@@ -36,7 +36,7 @@ function Projects2() {
         <p className="error">{error}</p>
       ) : project2?.data?.attributes ? (
         <div key={project2.data.id}>
-          <p>{project2.data.attributes.description}</p>
+          <p>{project2.data.attributes.desc}</p>
         </div>
       ) : (
         <p>No project found.</p>

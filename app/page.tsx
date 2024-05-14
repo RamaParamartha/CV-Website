@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import "./globals.css";
 import { TypeAnimation } from "react-type-animation";
 import Projects from "@/components/projects";
-import projects2 from "@/components/projects2";
 import Projects2 from "@/components/projects2";
 
 const HomePage = () => {
