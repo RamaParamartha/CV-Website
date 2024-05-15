@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <div>
       <Profile />
-      <div className="h-[70rem] spacer layer2" id="report">
+      <div className="xl:h-[70rem] lg:h-[50rem] spacer layer2" id="report">
         <p className="text-white font-sans text-center text-8xl font-bold pt-4">
           REPORT
         </p>
@@ -32,7 +32,7 @@ const HomePage = () => {
         </div>
         {/* Vision and mission */}
         <div>
-          <p className="ml-60 xl:mt-24 mt-6 bg-white text-black font-sans p-4 rounded w-[7.5rem] xl:text-5xl font-bold shadow-xl shadow-black duration-300 hover:shadow-blue-500 hover:bg-white animate-upNdown">
+          <p className="ml-60 xl:mt-24 mt-6 bg-white text-black font-sans p-4 rounded xl:w-[7.5rem] w-[4rem] xl:text-5xl font-bold shadow-xl shadow-black duration-300 hover:shadow-blue-500 hover:bg-white animate-upNdown">
             VISI
           </p>
           <p className="font-sans xl:text-xl ml-[15.3rem] mr-60 mt-4">
@@ -42,7 +42,7 @@ const HomePage = () => {
             pada inovasi, integritas, dan kejujuran dalam setiap interaksi
             bisnis.
           </p>
-          <p className="ml-60 mt-20 bg-white text-black font-sans p-4 rounded w-[8.5rem] xl:text-5xl font-bold shadow-xl shadow-black duration-300 hover:shadow-blue-500 hover:bg-white animate-upNdown">
+          <p className="ml-60 mt-20 bg-white text-black font-sans p-4 rounded xl:w-[8.5rem] w-[4rem] xl:text-5xl font-bold shadow-xl shadow-black duration-300 hover:shadow-blue-500 hover:bg-white animate-upNdown">
             MISI
           </p>
           <p className="font-sans mr-[15.3rem] xl:text-xl mt-4 ml-60">
@@ -57,12 +57,12 @@ const HomePage = () => {
       <br />
       <br />
       <br />
-      <div className="lg:h-[90rem] xl:h-[70rem] spacer layer3">
-        <p className="text-white font-sans text-center text-5xl font-bold mb-8">
+      <div className="lg:h-[95rem] xl:h-[70rem] spacer layer3">
+        <p className="text-white font-sans text-center text-5xl font-bold mb-8 lg:mt-44">
           PRODUK DAN JASA
         </p>
         <div className="ml-60 mt-20">
-        <p className="bg-white text-black font-sans p-4 rounded w-[14.5rem] xl:text-5xl font-bold shadow-xl shadow-black duration-300 hover:shadow-blue-500 hover:bg-white animate-upNdown">
+        <p className="bg-white text-black font-sans p-4 rounded xl:w-[14.5rem] w-[6rem] xl:text-5xl font-bold shadow-xl shadow-black duration-300 hover:shadow-blue-500 hover:bg-white animate-upNdown">
             PRODUK
           </p>
           <img
@@ -86,7 +86,7 @@ const HomePage = () => {
             kepada penggunanya.{" "}
           </p>
 
-          <p className="bg-white text-black font-sans p-4 rounded w-[9rem] xl:text-5xl font-bold shadow-xl shadow-black duration-300 hover:shadow-blue-500 hover:bg-white animate-upNdown mt-12">
+          <p className="bg-white text-black font-sans p-4 rounded xl:w-[9rem] w-[5rem] xl:text-5xl font-bold shadow-xl shadow-black duration-300 hover:shadow-blue-500 hover:bg-white animate-upNdown mt-12">
             JASA
           </p>
           <p className="mt-6 xl:text-xl lg:mr-44">1.	Konsultasi : Mulai dari pengumpulan kebutuhan, kami dapat membantu anda mewujudkan ide-ide anda.Menemukan opsi terbaik untuk masalah yang anda hadapi</p>

@@ -3,7 +3,7 @@ import React from "react";
 
 const Profile = () => {
   return (
-    <div className="layer1 spacer flex xl:h-[67rem] lg:h-[60vh] h-[60rem]" id="home">
+    <div className="layer1 spacer flex xl:h-[67rem] h-[60rem]" id="home">
       <div className="xl:pt-64 xl:pl-72 pt-32 pl-8">
         <div className="rounded overflow-hidden w-80 m-auto shadow-2xl shadow-black hover:scale-[1.05] duration-300 hover:shadow-blue-500 hover:bg-white animate-upNdown2">
           <img src="/MadeParamartha.png" alt="I Gede Made Paramartha Nugraha" />
